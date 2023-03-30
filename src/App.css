@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.history-div {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.img-deco {
+  height: 20px;
+  width: 30px;
+}
+.input-deco {
+  background-color: #2850a7;
+  border: 0.5px solid #ececec;
+  padding: 7px;
+  width: 400px;
+  color: #ececec;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.img-input-div {
+  margin-left: 450px;
+  display: flex;
+  flex-direction: row;
+  background-color: #2850a7;
+}
+.logo-deco {
+  height: 30px;
+  width: 130px;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+.img-div {
+  border-top: 0.5px solid #ececec;
+  border-left: 0.5px solid #ececec;
+  border-bottom: 0.5px solid #ececec;
+  text-align: center;
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.history-item-div {
+  box-shadow: 5px 5px 10px 10px #ececec;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 7px;
+}

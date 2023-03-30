@@ -1,0 +1,42 @@
+.user-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.user-designation {
+  color: #64748b;
+  margin-right: 70px;
+}
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+.profile-pic {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
+.para-deco {
+  color: #475569;
+  font-weight: 500;
+  margin-right: 20px;
+}
+p {
+  color: #475569;
+}
+.div-deco {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+button {
+  background-color: white;
+  border: 0px solid white;
+  margin-right: 10px;
+}
